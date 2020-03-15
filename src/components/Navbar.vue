@@ -18,7 +18,7 @@
                             <a class="nav-link" href="#" title="Services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" title="Portoflio">Portoflio</a>
+                            <a class="nav-link" href="#" title="Portoflio">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" title="Blog">Blog</a>

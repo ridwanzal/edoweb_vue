@@ -17,8 +17,8 @@
     background-size: cover;
     font-family: 'Montserrat',  sans-serif;
     color: #fff;
-    padding-top:160px;
-    padding-bottom:180px;
+    padding-top:180px;
+    padding-bottom:200px;
   }
 
 
@@ -34,7 +34,7 @@
   }
 
   #captiontext{
-    font-weight: 300;	
+    font-weight: 500;	
     line-height : 40px;
     font-size : 18px;
   }
@@ -157,6 +157,7 @@
   .navmain > li {
       padding-right : 30px;
       color : #fff;
+      font-weight: 500;
   }
 
   .navmain > li  > a{
@@ -165,6 +166,7 @@
 
   .daftarbutton{
       color : #ffffff !important;
+      font-weight: 500;
   }
 
   nav > .mynav{
@@ -232,6 +234,7 @@
     background: #ffcc00;
     border:2px solid #ffcc00;
     color: #000;
+    font-weight: 500;
     font-family: 'Montserrat',  sans-serif;
     font-size: 15px;
     border-radius: 4px;
@@ -242,7 +245,7 @@
     background: #000;
     border:2px solid #fff;
     color: #fff;
-
+    font-weight: 500;
     font-family: 'Montserrat',  sans-serif;
     font-size: 15px;
     border-radius: 2px;
@@ -254,6 +257,7 @@
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
+    font-weight: 500;
     font-family: 'Montserrat',  sans-serif;
     font-size: 15px;
     border-radius: 4px;
@@ -268,6 +272,7 @@
   .button1_outline_small_black{
     background: transparent;
     border: 1px solid #000;
+    font-weight: 500;
     color: #000;
     font-family: 'Montserrat',  sans-serif;
     font-size: 15px;
@@ -303,8 +308,8 @@
     font-family: 'Montserrat',  sans-serif;
     font-size: 14px;
     border-radius: 4px;
+    font-weight: 500;
     padding: 5px 10px 5px 10px;
-    font-weight: bold;
   }
 
   .button1_outline_smaller_black:hover {
@@ -322,7 +327,7 @@
     padding: 4px 24px 4px 24px;
     position: relative;
     top: 11px;
-    font-weight: bold;
+    font-weight: 500;
   }
 
 
@@ -337,6 +342,7 @@
     border-radius: 2px;
     padding: 4px 24px 4px 24px;
     position: relative;
+    
     top: 11px;
     font-weight: bold;
   }
@@ -1021,4 +1027,8 @@
        -moz-transform: rotateZ(45deg) skew(-10deg, -10deg);
         -ms-transform: rotateZ(45deg) skew(-10deg, -10deg);
             transform: rotateZ(45deg) skew(-10deg, -10deg);
+  }
+
+  .btn_mobile{
+    margin-right:5px;
   }
