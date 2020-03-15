@@ -12,7 +12,7 @@
                             <a class="nav-link" href="/" title="Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:8080/about" title="About">About</a>
+                            <a class="nav-link" href="http://localhost:8080/about" title="About">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" title="Services">Services</a>

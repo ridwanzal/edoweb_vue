@@ -17,7 +17,7 @@
     background-size: cover;
     font-family: 'Montserrat',  sans-serif;
     color: #fff;
-    padding-top:120px;
+    padding-top:160px;
     padding-bottom:180px;
   }
 
@@ -49,6 +49,15 @@
     padding-bottom:80px;
   }	
 
+  .thirdsection_two{
+    background-color:#fff;
+    /*background-image:url('img/53.png');*/
+    font-family: 'Montserrat',  sans-serif;
+    color: #4d4d4d;
+    padding-top:50px;
+    padding-bottom:100px;
+  }	
+
   .fourthsection{
     background-color:#f8f8f8    ;
     /*background-image:url('img/53.png');*/
@@ -56,6 +65,20 @@
     color: #4d4d4d;
     padding-top:50px;
     padding-bottom:100px;
+    border-bottom: 1px solid #efefef;
+    /* font-size:25px; */
+  }
+
+
+  .fourthsectionthree{
+    border : 1px solid #efefef;
+    background-color:#f8f8f8;
+    /*background-image:url('img/53.png');*/
+    font-family: 'Montserrat',  sans-serif;
+    color: #4d4d4d;
+    padding-top:30px;
+    padding-bottom:50px;
+    border-bottom: 1px solid #efefef;
     /* font-size:25px; */
   }
 
@@ -79,7 +102,7 @@
     /*background-image:url('img/53.png');*/
     font-family: 'Montserrat',  sans-serif;
     color: #4d4d4d;
-    padding-top:40px;
+    padding-top:80px;
     padding-bottom:40px;
   }
 
@@ -110,7 +133,7 @@
   }
 
   .footer{
-    background-color:#4d4d4d;
+    background-color:#00171F;
     /*background-image:url('img/53.png');*/
     font-family: 'Montserrat',  sans-serif;
     color: #f5f5f5;
@@ -196,7 +219,7 @@
   /*SEPARATOR*/
   /*=======================================*/
   .separator{
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 30px;
   }
 
@@ -244,13 +267,12 @@
 
   .button1_outline_small_black{
     background: transparent;
-    border: 2px solid #888;
-    color: #888;
+    border: 1px solid #000;
+    color: #000;
     font-family: 'Montserrat',  sans-serif;
-    font-size: 14px;
-    border-radius: 2px;
-    padding: 10px 20px 10px 20px;
-    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 10px 24px 10px 24px;
   }
 
   .button1_outline_small_black:hover {
@@ -280,7 +302,7 @@
     color: #888;
     font-family: 'Montserrat',  sans-serif;
     font-size: 14px;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 5px 10px 5px 10px;
     font-weight: bold;
   }
@@ -924,4 +946,79 @@
   .card-text{
       font-size : 14px;
       line-height: 30px;
+  }
+
+  .image_instagram{
+    cursor: pointer;
+  }
+
+  
+  .card_services:hover{
+      border: 1px solid #00171F;
+  }
+
+  .text_testi{
+    line-height : 32px;
+  }
+
+  .breadcrumbs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .breadcrumbs li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    font-family: Helvetica Neue,sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .05em;
+    line-height: 20px;
+    color : #aaa;
+    
+  }
+  
+  .breadcrumbs li a {
+    display: block;
+    padding: 0 40px 0 0px;
+    color : #aaa;
+    text-decoration: none;
+    height: 20px;
+    position: relative;
+    perspective: 700px;
+  }
+  
+  .breadcrumbs li a:after {
+    content: '';
+    top : 6px;
+    width: 8px;
+    height: 8px;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    outline: 1px solid transparent;
+    position: absolute;
+    right: 20px;
+    -webkit-transition: all .15s ease;
+       -moz-transition: all .15s ease;
+        -ms-transition: all .15s ease;
+            transition: all .15s ease;
+    -webkit-transform: rotateZ(45deg) skew(10deg, 10deg);
+       -moz-transform: rotateZ(45deg) skew(10deg, 10deg);
+        -ms-transform: rotateZ(45deg) skew(10deg, 10deg);
+            transform: rotateZ(45deg) skew(10deg, 10deg);
+  }
+  
+  
+  .breadcrumbs li a:hover:after {
+    right: 15px;
+    -webkit-transform: rotateZ(45deg) skew(-10deg, -10deg);
+       -moz-transform: rotateZ(45deg) skew(-10deg, -10deg);
+        -ms-transform: rotateZ(45deg) skew(-10deg, -10deg);
+            transform: rotateZ(45deg) skew(-10deg, -10deg);
   }
