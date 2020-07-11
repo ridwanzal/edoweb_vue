@@ -4,16 +4,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-7 col-xs-12">
-                        <vue-typed-js :strings="['Hi there, Welcome to Edo.', 'Technology Enthusiast.', 'Solution for web development.', 'Building mobile apps.', 'Deliver impressive design.']"
+                        <vue-typed-js :strings="['Welcome to RIDWANZAL.COM.', 'Technology Enthusiast.', 'Solution for web development.', 'Building mobile apps.', 'Deliver impressive design.']"
                              :loop="true" :typeSpeed="120" :cursorChar="'_'">
-                            <h1  style="font-size:40px; height:55px;" class="typing"></h1>
+                            <h1  style="font-size:38px; letter-spacing: 0px; font-weight:600; height:60px;font-family: 'Lato', sans-serif;" class="typing"></h1>
                         </vue-typed-js>
-                        <p id="captiontext" style="color:#6f7b80 !important;margin-top:10px;" class="animated fadeIn">Hello people, my name is M. Ridwan Zalbina, I am a Software Engineer and Graphic Designer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
+                        <p id="captiontext" style="margin-top:10px;" class="animated fadeIn">Hello people, my name is M. Ridwan Zalbina, I am a Software Engineer and Graphic Designer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
                         <div class="separator"></div>
-                        <button class="button1_outline_small" type="button" id="learnmores"><span data-feather="arrow-right" class="feather-24"></span>Learn more</button>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a href="https://edo.scafol.id/frontpage/contact"><button  style="color:#4d4d4d;margin-left:8px;" class="button1_small" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
+                        <button class="button1_outline_small" type="button" id="learnmores"><span data-feather="arrow-right" class="feather-24"></span>Learn more</button>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a href="https://edo.scafol.id/frontpage/contact">
+                        <button  style="margin-left:8px;" class="button1_small" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-5 col-md-5 col-xs-12">
-                        <img class="animated fadeInUp fast" src="../assets/edowork.png" style="width:100%;">
+                        <img class="animated fadeInUp imageme;" src="../assets/edowork.svg" style="width:100%;position:relative;top:-50px;">
                     </div>
                 </div>
             </div>
@@ -30,10 +31,10 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-xs-12">
-                                <div class="card animated fadeInUp card_services" style="width: 16.8rem;height:530px;">
+                                <div class="card animated fadeInUp card_services" style="height:530px;">
                                     <div class="card-body">
                                         <br/>
-                                        <center><img style="width:65%;" src="../assets/1.png"></center>
+                                        <center><img style="width:65%;" src="../assets/icon_service/2.svg"></center>
                                         <br/>
                                         <h5 class="card-title" style="padding-top:15px;padding-bottom:15px;">Web Development.</h5>
                                         <p class="card-text">Many years in Software Development. Have an experiences on lead product engineering, team management, and startup environment. Work with me and create stunning product</p>
@@ -41,10 +42,10 @@
                                 </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-xs-12">
-                                <div class="card animated fadeInUp card_services" style="width: 16.8rem;height:530px;">
+                                <div class="card animated fadeInUp card_services" style="height:530px;">
                                     <div class="card-body">
                                         <br/>
-                                        <center><img  style="width:65%;" src="../assets/2.png"></center>
+                                        <center><img  style="width:65%;" src="../assets/icon_service/1.svg"></center>
                                         <br/>
                                         <h5 class="card-title" style="padding-top:15px;padding-bottom:15px;">Mobile Application</h5>
                                         <p class="card-text">Many years in Software Development. Have an experiences on lead product engineering, team management, and startup environment. Work with me and create stunning product.</p>
@@ -52,10 +53,10 @@
                                 </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-xs-12">
-                            <div class="card animated fadeInUp card_services" style="width: 16.8rem;height:530px;">
+                            <div class="card animated fadeInUp card_services" style="height:530px;">
                                     <div class="card-body">
                                         <br/>
-                                        <center><img  style="width:65%;" src="../assets/3.png"></center>
+                                        <center><img  style="width:65%;" src="../assets/icon_service/4.svg"></center>
                                         <br/>
                                         <h5 class="card-title" style="padding-top:15px;padding-bottom:15px;">Graphic Design</h5>
                                         <p class="card-text">Experienced in Graphic Design, UX Research and Visual Design, follow current design trend, and maintaining clean, acceptable design product, precise and customer oriented.</p>
@@ -63,10 +64,10 @@
                                 </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-xs-12">
-                                <div class="card animated fadeInUp card_services" style="width: 16.8rem;height:530px;">
+                                <div class="card animated fadeInUp card_services" style="height:530px;">
                                     <div class="card-body">
                                         <br/>
-                                        <center><img  style="width:65%;" src="../assets/4.png"></center>
+                                        <center><img  style="width:65%;" src="../assets/icon_service/3.svg"></center>
                                         <br/>
                                         <h5 class="card-title" style="padding-top:15px;padding-bottom:15px;">UI/UX Design</h5>
                                         <p class="card-text">Experienced in Graphic Design, UX Research and Visual Design, follow current design trend, and maintaining clean, acceptable design product, precise and customer oriented.</p>
@@ -76,11 +77,19 @@
                     </div>
                 </div>
         </div>
-        <div class="fifthsection">
+        <!-- <div class="fifthsection">
             <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-xs-12" style="padding-top:60px;padding-bottom:90px;">
+                            <center>
+                                <div style="font-weight:600;font-size:25px;">Read my microblog on instagram</div>
+                                <div style="line-height:35px;width:80%;margin-top:40px;">I write micro blogging on instagram platform, hope this will help me to gain more traction. Although, I'll write articles too. Hopefully this would help us to learn new things. Thankyou.</div>    
+                            </center>
+                        </div>
+                    </div>
                     <div class="row images" v-if="images.length >= 9">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" v-for="image in images" v-bind:key="image" v-viewer>
-                            <img class="image_instagram animated fadeInUp" style="border-radius:4px;width:100%;margin-bottom:30px;" v-bind:src="image.images.standard_resolution.url" :key="image.images.standard_resolution.id">
+                            <img class="image_instagram animated fadeInUp image_instagram_action" style="border-radius:4px;width:100%;margin-bottom:30px;" v-bind:src="image.images.standard_resolution.url" :key="image.images.standard_resolution.id">
                         </div>
                     </div>
                     <div class="row">
@@ -89,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-        </div>
+        </div> -->
          <div class="fourthsectionthree">
                 <div class="container"> 
                     <div class="row">
@@ -101,13 +110,13 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-10 col-md-10 col-xs-12 offset-md-1 offset-lg-1">
-                                <carousel :autoplay="true" :loop="true" :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
+                                <carousel :autoplay="true" :autoplayTimeout="2000" :loop="true" :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
                                     <slide>
                                         <center>
                                             <p class="text_testi">
                                                 "Saya sudah beberapa kali dibuatkan desain logo dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum."
-                                            </p>
-                                            <p style="color:#a9a9a9;">M. Iqbal - Owner Cindo</p>
+                                            </p> 
+                                            <p style="color:#777777;margin-top:5px;">M. Iqbal - Owner Cindo</p>
                                         </center>
                                     </slide>
                                     <slide>
@@ -184,7 +193,9 @@ export default {
             .then((response) => { 
                     this.images = response.data.data.slice(0,9); 
                     console.log(this.images);
-            });
+        });
+
+        
     },
 }
 </script>

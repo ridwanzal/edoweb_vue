@@ -1,22 +1,22 @@
 *{
-    font-family : 'Montserrat', sans-serif;
+    font-family : 'Lato', sans-serif;
   }
 
   .firstsection {
     text-align:center;
     background-color:#dd3637;
     color:#fff;
-    font-family: 'Montserrat',  sans-serif;  
+    font-family: 'Lato',  sans-serif;  
     padding-bottom:8px;
     padding-top:6px;
     margin-top:50px;
   }
 
   .secondsection{
-    background-color:#00171F !important;
+    background-color:#fff !important;
     background-size: cover;
-    font-family: 'Montserrat',  sans-serif;
-    color: #fff;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F !important;
     padding-top:180px;
     padding-bottom:200px;
   }
@@ -27,7 +27,7 @@
     background: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     color: #4d4d4d;
     padding-top:80px;
     padding-bottom:50px;
@@ -43,8 +43,8 @@
   .thirdsection{
     background-color:#fff;
     /*background-image:url('img/53.png');*/
-    font-family: 'Montserrat',  sans-serif;
-    color: #4d4d4d;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F;
     padding-top:80px;
     padding-bottom:80px;
   }	
@@ -52,17 +52,17 @@
   .thirdsection_two{
     background-color:#fff;
     /*background-image:url('img/53.png');*/
-    font-family: 'Montserrat',  sans-serif;
-    color: #4d4d4d;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F;
     padding-top:50px;
     padding-bottom:100px;
   }	
 
   .fourthsection{
-    background-color:#f8f8f8    ;
+    background-color:#f7f9fc    ;
     /*background-image:url('img/53.png');*/
-    font-family: 'Montserrat',  sans-serif;
-    color: #4d4d4d;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F;
     padding-top:50px;
     padding-bottom:100px;
     border-bottom: 1px solid #efefef;
@@ -71,11 +71,11 @@
 
 
   .fourthsectionthree{
-    border : 1px solid #efefef;
-    background-color:#f8f8f8;
+    border-top : 1px solid #efefef;
+    background-color:#f7f9fc;
     /*background-image:url('img/53.png');*/
-    font-family: 'Montserrat',  sans-serif;
-    color: #4d4d4d;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F;
     padding-top:30px;
     padding-bottom:50px;
     border-bottom: 1px solid #efefef;
@@ -84,8 +84,8 @@
 
   .fourthsectiontwo{
     background-color:#f5f5f5;
-    font-family: 'Montserrat',  sans-serif;
-    color: #4d4d4d;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F;
     padding-top:40px;
     padding-bottom:-30px;
   }
@@ -100,17 +100,17 @@
   .fifthsection{
     background-color:#fff;
     /*background-image:url('img/53.png');*/
-    font-family: 'Montserrat',  sans-serif;
-    color: #4d4d4d;
-    padding-top:80px;
-    padding-bottom:40px;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F;
+    padding-top:40px;
+    padding-bottom:60px;
   }
 
   .contact {
     background-color:#f5f5f5;
     /*background-image:url('img/53.png');*/
-    font-family: 'Montserrat',  sans-serif;
-    color: #4d4d4d;
+    font-family: 'Lato',  sans-serif;
+    color: #00171F;
     padding-top:60px;
     padding-bottom:60px;
     display: none;
@@ -133,17 +133,17 @@
   }
 
   .footer{
-    background-color:#00171F;
+    background-color:#37474f;
     /*background-image:url('img/53.png');*/
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     color: #f5f5f5;
-    padding-top:55px;
-    padding-bottom:45px;
+    padding-top:95px;
+    padding-bottom:75px;
     color: #ffffff;
   }
 
   .navbar {
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     font-weight: 300;
     color : #fff;
     /*letter-spacing: 0.06;	*/
@@ -157,15 +157,16 @@
   .navmain > li {
       padding-right : 30px;
       color : #fff;
-      font-weight: 500;
+      font-weight: 600;
   }
 
   .navmain > li  > a{
-      color : #ffffff !important;
+      color : #00171F !important;
   }
+  
 
   .daftarbutton{
-      color : #ffffff !important;
+      color : #00171F !important;
       font-weight: 500;
   }
 
@@ -231,11 +232,22 @@
 
 
   .button1_small {
-    background: #ffcc00;
-    border:2px solid #ffcc00;
-    color: #000;
+    background: #178573;
+    border:2px solid #178573;
+    color: #fff;
     font-weight: 500;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    padding:10px 24px 10px 24px;
+  }
+
+  .button1_small:hover{
+    background-color: #178573;
+    border : 1px solid #178573;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Lato',  sans-serif;
     font-size: 15px;
     border-radius: 4px;
     padding:10px 24px 10px 24px;
@@ -246,7 +258,7 @@
     border:2px solid #fff;
     color: #fff;
     font-weight: 500;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     font-size: 15px;
     border-radius: 2px;
     padding:10px 24px 10px 24px;
@@ -255,10 +267,10 @@
 
   .button1_outline_small{
     background: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #00171f;
+    color: #00171f;
     font-weight: 500;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     font-size: 15px;
     border-radius: 4px;
     padding: 10px 24px 10px 24px;
@@ -271,17 +283,17 @@
 
   .button1_outline_small_black{
     background: transparent;
-    border: 1px solid #000;
+    border: 1px solid #37474f;
     font-weight: 500;
-    color: #000;
-    font-family: 'Montserrat',  sans-serif;
+    color: #37474f;
+    font-family: 'Lato',  sans-serif;
     font-size: 15px;
     border-radius: 4px;
     padding: 10px 24px 10px 24px;
   }
 
   .button1_outline_small_black:hover {
-    background: #888;
+    background: #37474f;
     color: #fff;
   }
 
@@ -289,7 +301,7 @@
     background: transparent;
     border: 2px solid #888;
     color: #888;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     font-size: 12px;
     border-radius: 2px;
     padding: 4px 24px 4px 24px;
@@ -305,7 +317,7 @@
     background: transparent;
     border: 1px solid #888;
     color: #888;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     font-size: 14px;
     border-radius: 4px;
     font-weight: 500;
@@ -321,7 +333,7 @@
     background: transparent;
     border: 1px solid #888;
     color: #888;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     font-size: 12px;
     border-radius: 2px;
     padding: 4px 24px 4px 24px;
@@ -337,7 +349,7 @@
     background: #2B9455;
     border: 2px solid #2B9455;
     color: #fff;
-    font-family: 'Montserrat',  sans-serif;
+    font-family: 'Lato',  sans-serif;
     font-size: 12px;
     border-radius: 2px;
     padding: 4px 24px 4px 24px;
@@ -761,6 +773,14 @@
       padding-top: 20px;
       padding-bottom: 0px;
     }
+
+    .typing {
+      font-size: 12px;
+    }
+
+    .imageme{
+      margin-top:20px;
+    }
   }
 
   .font_bold{
@@ -954,17 +974,26 @@
       line-height: 30px;
   }
 
-  .image_instagram{
-    cursor: pointer;
+  .card_services{
+    margin-top: 4px;
+    margin-bottom: 4px;
   }
 
-  
   .card_services:hover{
-      border: 1px solid #00171F;
+      cursor: pointer;
+      border: 1px solid #fff;
+      box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+      transition: all .2s ease-out;
+      -webkit-transition:  all .2s ease-out;
+      will-change: transform;
   }
 
   .text_testi{
     line-height : 32px;
+    background : #fff ;
+    padding: 20px;
+    border-radius: 10px;
+    border : 1px solid #dddddd;
   }
 
   .breadcrumbs {
@@ -1031,4 +1060,37 @@
 
   .btn_mobile{
     margin-right:5px;
+  }
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: width 2s, height 4s;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+
+  .image_instagram_action:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+    transition: all .2s ease-out;
+    -webkit-transition:  all .2s ease-out;
+    will-change: transform;
+  }
+  
+  #navbarDropdown{
+    border : 0.5px solid #00171F;
+    border-radius: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .imageme{
+      margin-top:20px;
+    }    
   }

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header/>
     <Navbar/>
     <div class="container" style="margin-top:50px;">
       <div class="row">
@@ -8,7 +7,7 @@
                 <ul class="breadcrumbs">
                   <li><a href="/"><span data-feather="home"></span>&nbsp;&nbsp;Home</a></li>
                   <li>About Me</li>
-                </ul>
+                </ul>   
             </div>
       </div>
     </div>
@@ -16,7 +15,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-xs-12">
-                        <img class="animated fadeIn" alt="" height="" width="220px" id="myimage" src="https://edo.scafol.id/assets/img//me2.png"><br>
+                        <img class="animated fadeIn" alt="" height="" width="180px" id="myimage" src="../../assets/me.svg"><br>
                     </div>
                     <div class="col-lg-9 col-md-6 col-xs-12 animated fadeIn slow">
                         <p id="text_sapa" class="medium_text">Hello there, my name is</p>
@@ -79,14 +78,12 @@
 </template>
 
 <script>
-    import Header from '../../components/Header.vue'
     import Navbar from '../../components/Navbar.vue'
     import Footer from '../../components/Footer.vue'
 
     export default {
     name: 'About',
         components: {
-            Header,
             Navbar,
             Footer
         },

@@ -9,10 +9,13 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
+    "aos": "^2.3.4",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.7.0",
     "core-js": "^3.6.4",
+    "dropbox": "^4.0.30",
+    "dropbox-v2-api": "^2.4.13",
     "install": "^0.13.0",
     "jquery": "^3.4.1",
     "npm": "^6.14.2",
