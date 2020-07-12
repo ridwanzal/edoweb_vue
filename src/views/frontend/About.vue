@@ -3,7 +3,7 @@
     <Navbar/>
     <div class="container" style="margin-top:50px;">
       <div class="row">
-             <div class="col-lg-6 col-md-6 col-xs-12 w-50">
+             <div class="col-lg-12 col-md-12 col-xs-12 w-100">
                 <ul class="breadcrumbs">
                   <li><a href="/"><span data-feather="home"></span>&nbsp;&nbsp;Home</a></li>
                   <li>About Me</li>
@@ -22,8 +22,8 @@
                         <h2 class="text_bold" id="author_names">M. Ridwan Zalbina (Edo)</h2>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>
-                        <p class="medium_text">Hello, my name is M. Ridwan Zalbina, I'm Co-Founder at Scafol Indonesia (PT. Aplikasi Konstruksi Global) based in Palembang.
-                        We're currently making progress.
+                        <p class="medium_text">Hello, my name is M. Ridwan Zalbina, I'm currently working as Co-Founder at Scafol Indonesia (PT. Aplikasi Konstruksi Global - <a href="https://scafol.com">www.scafol.com</a> ) 
+                        
                         
                         </p>
                         <br/>

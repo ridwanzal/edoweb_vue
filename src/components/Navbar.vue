@@ -17,12 +17,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/services" title="Services">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#" title="Portoflio">Portfolio</a>
-                        </li> 
-                        <li class="nav-item">
+                        </li> --> 
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#" title="Blog">Blog</a>
-                        </li>
+                        </li> -->
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#" title="Blog">Contact</a>
                         </li> -->

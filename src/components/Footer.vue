@@ -4,9 +4,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-xs-12">
                         <h4>Get in touch & let's work together</h4>
-                        <br/>
-                        <br/>
-                        <p style="line-height:2; font-size:14px; font-weight:normal;">If you have a website or mobile app idea in mind or you need some 
+                        <p style="line-height:2; font-size:14px; font-weight:normal;margin-top:10px;">If you have a website or mobile app idea in mind or you need some 
                             advice about product design, feel free to contact me. Currently my time books quickly,
                             the sooner you write, the better it is for both of us.</p>
                     </div>
@@ -14,7 +12,7 @@
                         <a href="https://edo.scafol.id/contact"><button class="button1_small block_display mycv download btn_mobile" type="button"><span class="feather-24" data-feather="arrow-right"></span>&nbsp;&nbsp;Send me a message</button></a>
                     </div>
                 </div>
-                <div class="row" style="margin-top:30px; padding-top:30px; margin-bottom:5px;">
+                <div class="row" style="margin-top:30px; padding-top:15px; margin-bottom:5px;">
                     <div class="col-lg-9 col-md-9 col-xs-12">
                         <p>All Rights Reserved. &copy; 2020 <span id="printyear"></span> Palembang, Indonesia&nbsp;&nbsp;|&nbsp;&nbsp;Develop with <span class="fa fa-heart">  </span> by M. Ridwan Zalbina</p>
                     </div>

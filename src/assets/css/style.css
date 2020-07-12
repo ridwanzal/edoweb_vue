@@ -562,7 +562,52 @@
     font-weight: bolder;
   }
 
+  .imageme{
+    width:100%;position:relative;top:-50px;
+  }
+
+  .img_services{
+    width:50%;
+  }
+
+  .mytils{
+    padding-top:20px;
+  }
+
   @media screen and  (max-width : 767px){
+    .img_services{
+      width:50%;
+    }
+    .footer{
+      padding-top:20px !important;
+      padding-bottom:20px !important;
+    }
+    .navbar_custom{
+      padding-top:0px !important;
+      padding-bottom:0px !important;
+    }
+
+    .typed-element{
+      font-size: 20% !important;
+    }
+
+    #captiontext{
+      margin-top:40px !important;
+    }
+
+    .imageme{
+      position : relative !important;
+      margin-top:20px;
+      top: 20px;
+      margin-bottom: 20px;
+      width : 100%;
+    }
+
+    .secondsection{
+      padding-top:10px !important;
+      padding-bottom: 10px !important;
+    }
+
     .insta_follow > h4{
       display: none;	
     }
@@ -685,7 +730,7 @@
     }
 
     #myimage{
-      margin : 0px;
+      width:10%;
     }
 
     #author_names{
@@ -758,9 +803,13 @@
     }
 
     #myimage{
+      padding:10px;
       width: 100%;
-      height: 638px;
-      object-fit: cover;
+    }
+
+    .thirdsection_two{
+      padding-top:20px;
+      padding-bottom: 20px;
     }
 
     .separator{
