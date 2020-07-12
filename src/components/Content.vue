@@ -102,6 +102,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-10 col-md-10 col-xs-12 offset-md-1 offset-lg-1">
+                                <!-- 
                                 <carousel :autoplay="true" :autoplayTimeout="2000" :loop="true" :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
                                     <slide>
                                         <center>
@@ -154,6 +155,7 @@
                                         </center>
                                     </slide>
                                 </carousel>
+                                -->
                         </div>
                     </div>
                 </div>
@@ -161,31 +163,31 @@
     </div>
 </template>
 <script>
-import axios from 'axios';
+// import axios from 'axios';
 import Vue from 'vue';
 import Viewer from 'v-viewer';
 import VueCarousel from 'vue-carousel'
-import { Carousel, Slide } from 'vue-carousel';
+// import { Carousel, Slide } from 'vue-carousel';
 Vue.use(Viewer);
 Vue.use(VueCarousel);
 export default {
     name: 'content',
     data() {
         return {
-            images : []
+            // images : []
         };
     },
     components : {
-        Carousel,
-        Slide
+        // Carousel,
+        // Slide
     },
     mounted() { 
-         axios
-            .get('https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b')
-            .then((response) => { 
-                    this.images = response.data.data.slice(0,9); 
-                    console.log(this.images);
-        });
+        //  axios
+        //     .get('https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b')
+        //     .then((response) => { 
+        //             this.images = response.data.data.slice(0,9); 
+        //             console.log(this.images);
+        // });
 
         
     },

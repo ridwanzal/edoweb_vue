@@ -13,6 +13,7 @@ import VueCarousel from 'vue-carousel'
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue';
 import VueTypedJs from 'vue-typed-js';
 import Aos from  'aos/dist/aos.js';
+import { createPopper } from '@popperjs/core';
 
 import axios from 'axios'
 import VueAxios from 'vue-axios'
@@ -25,6 +26,7 @@ Vue.use(BootstrapVueIcons);
 Vue.use(VueTypedJs);
 Vue.use(VueCarousel);
 Vue.use(Aos);
+Vue.use(createPopper);
 new Vue({
   router,
   store,
