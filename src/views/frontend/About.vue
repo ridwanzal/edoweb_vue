@@ -22,7 +22,7 @@
                         <h2 class="text_bold" id="author_names">M. Ridwan Zalbina (Edo)</h2>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>
-                        <p class="medium_text">Hello, my name is M. Ridwan Zalbina, I'm currently working as Co-Founder at Scafol Indonesia (PT. Aplikasi Konstruksi Global - <a href="https://scafol.com">www.scafol.com</a> ) 
+                        <p class="medium_text">Hello, my name is M. Ridwan Zalbina, I'm currently working as Front End Developer in Fairtech Pte, Ltd.
                         
                         
                         </p>
